@@ -1,0 +1,11 @@
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+#connectionStatus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px; }
+  #connectionStatus.connected {
+    background-color: green; }
+  #connectionStatus.disconnected {
+    background-color: red; }
